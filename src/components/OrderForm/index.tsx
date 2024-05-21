@@ -22,7 +22,7 @@ const orderSchema = z.object({
 type OrderFormValues = z.infer<typeof orderSchema>;
 
 const OrderForm = () => {
-  const { placeOrder } = useBookStore((state) => state);
+  const { cart, placeOrder } = useBookStore((state) => state);
   const router = useRouter();
 
   const form = useForm<OrderFormValues>({
@@ -39,6 +39,7 @@ const OrderForm = () => {
 
   const handleSubmit = form.onSubmit((values) => {
     placeOrder(values);
+    router.push("/");
 
     // Mocking the placing order
     const id = notifications.show({
@@ -61,14 +62,12 @@ const OrderForm = () => {
         autoClose: 2000,
       });
     }, 3000);
-
-    router.push("/");
   });
 
   return (
     <form onSubmit={handleSubmit}>
       <Container size="sm">
-        <Fieldset legend="Delivery Information">
+        <Fieldset legend="Delivery Information" disabled={cart.items.length === 0}>
           <TextInput
             label="Full Name"
             {...form.getInputProps("fullName")}
@@ -105,7 +104,7 @@ const OrderForm = () => {
             error={form.errors.country}
           />
         </Fieldset>
-        <Button type="submit" loading={false} mt={"lg"}>
+        <Button disabled={cart.items.length === 0} type="submit" loading={false} mt={"lg"}>
           Place Order
         </Button>
       </Container>
