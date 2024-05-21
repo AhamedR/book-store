@@ -13,6 +13,14 @@ import { Notifications } from "@mantine/notifications";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata: Metadata = {
+  title: "Book Store",
+  description: "Discover Your Next Great Read",
+  authors: [
+    { name: "Ahamed R", url: "https://www.linkedin.com/in/ahamed-rasheed/" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
