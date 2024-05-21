@@ -1,19 +1,15 @@
 "use Client";
 
 import { useState } from "react";
-import {
-  CloseButton,
-  Grid,
-  Select,
-  TextInput,
-  rem,
-} from "@mantine/core";
+import { CloseButton, Grid, Select, TextInput, rem } from "@mantine/core";
 import { IconSortDescending, IconSearch } from "@tabler/icons-react";
 import { useBookStore } from "@/providers/bookStoreProvider";
 
 const Filter = () => {
   const [searchValue, setSearchValue] = useState("");
-  const { searchBooks, filterBooks } = useBookStore((state) => state);
+  const { isFetching, searchBooks, filterBooks } = useBookStore(
+    (state) => state,
+  );
 
   const handleSearch = (searchTerm: string) => {
     setSearchValue(searchTerm);
@@ -39,6 +35,7 @@ const Filter = () => {
           placeholder="Title, Author, Category"
           leftSection={searchIcon}
           value={searchValue}
+          disabled={isFetching}
           onChange={(event) => handleSearch(event.currentTarget.value)}
           rightSectionPointerEvents="all"
           rightSection={
@@ -58,6 +55,7 @@ const Filter = () => {
             { value: "high", label: "Expensive - Low" },
           ]}
           leftSectionPointerEvents="none"
+          disabled={isFetching}
           leftSection={icon}
           defaultValue="all"
           placeholder="Sort by price"

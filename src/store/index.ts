@@ -28,6 +28,7 @@ export const defaultInitState: IBookApiResponse = {
   totalItems: 1,
   itemsPerPage: 1,
   totalPages: 1,
+  isFetching: true,
 };
 
 export const createBookStore = (
@@ -47,6 +48,7 @@ export const createBookStore = (
         totalItems,
         itemsPerPage,
         totalPages,
+        isFetching: false,
       });
     },
     searchBooks: (searchTerm: string) => {

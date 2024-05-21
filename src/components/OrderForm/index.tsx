@@ -47,6 +47,7 @@ const OrderForm = () => {
       message: "We are just preparing your order",
       autoClose: false,
       withCloseButton: false,
+      position: "bottom-center",
     });
 
     setTimeout(() => {
@@ -59,8 +60,9 @@ const OrderForm = () => {
         loading: false,
         autoClose: 2000,
       });
-      router.push("/");
     }, 3000);
+
+    router.push("/");
   });
 
   return (

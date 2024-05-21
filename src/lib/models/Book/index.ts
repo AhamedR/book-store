@@ -15,4 +15,5 @@ export interface IBookApiResponse {
   totalItems: number;
   itemsPerPage: number;
   totalPages: number;
+  isFetching: boolean;
 }

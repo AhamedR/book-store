@@ -6,11 +6,11 @@ import { useEffect } from "react";
 import BookCard from "@/components/BookCard";
 import Filter from "@/components/Filter";
 import { useBookStore } from "@/providers/bookStoreProvider";
+import CardSkeleton from "@/components/CardSkeleton";
 
 export default function HeaderMenu() {
-  const { books, currentPage, totalPages, fetchBooks } = useBookStore(
-    (state) => state,
-  );
+  const { books, currentPage, totalPages, isFetching, fetchBooks } =
+    useBookStore((state) => state);
 
   useEffect(() => {
     fetchBooks();
@@ -28,6 +28,7 @@ export default function HeaderMenu() {
           direction="row"
           wrap="wrap"
         >
+          {isFetching ? <CardSkeleton /> : null}
           {books.map((book) => (
             <BookCard
               key={book.id}
