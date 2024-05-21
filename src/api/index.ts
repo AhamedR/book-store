@@ -27,8 +27,6 @@ const getBooks = (
     );
   }
 
-  console.log(filteredBooks);
-
   // Sorting
   if (sort === "low") {
     filteredBooks.sort((a, b) => a.price - b.price);
