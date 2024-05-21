@@ -26,6 +26,7 @@ const NavBar = () => {
 
   const openCart = () => {
     toggleCardDrawer();
+    closeDrawer();
   };
 
   return (
@@ -33,7 +34,7 @@ const NavBar = () => {
       <header className={classes.header}>
         <Container size="md">
           <div className={classes.inner}>
-            <Group visibleFrom="sm">
+            <Group>
               <NavLink
                 href="/"
                 component={Link}
@@ -73,7 +74,7 @@ const NavBar = () => {
           <Group justify="center" grow pb="xl" px="md">
             <Button onClick={openCart} disabled={cart.totalItems === 0}>
               <IconShoppingCart />
-              Cart{" "}
+              Cart
               {cart.totalItems ? (
                 <Badge ml={"xs"} variant="white" color="blue" circle>
                   {cart.totalItems}
