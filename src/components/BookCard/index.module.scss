@@ -4,6 +4,10 @@
   background-color: var(--mantine-color-body);
   max-width: rem(280px);
   min-width: rem(260px);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    min-width: 100%;
+  }
 }
 
 .imageSection {
