@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ee1",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 9.99,
+    "category": "Science Fiction, Comedy",
+    "description": "A comedic science fiction series following the adventures of an ordinary human and his alien friend as they travel through space."
+  },
+  {
+    "id": "33",
+    "title": "Red Dwarf",
+    "author": "Grant Naylor",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 12.99,
+    "category": "Science Fiction, Comedy",
+    "description": "A science fiction sitcom that follows the misadventures of a crew of characters aboard the mining spaceship Red Dwarf."
+  },
+  {
+    "id": "e1",
+    "title": "The Rosie Project",
+    "author": "Graeme Simsion",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 7.99,
+    "category": "Romance, Fiction",
+    "description": "A heartwarming and funny story about a socially inept genetics professor who embarks on a project to find the perfect wife."
+  },
+  {
+    "id": "e3",
+    "title": "Eleanor Oliphant Is Completely Fine",
+    "author": "Gail Honeyman",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 10.99,
+    "category": "Fiction",
+    "description": "A moving and humorous novel that follows the life of Eleanor Oliphant, a socially awkward young woman who learns to open herself up to the world."
+  },
+  {
+    "id": "41123a45-6d11-4111-8495-d05888622233",
+    "title": "Book Title 1",
+    "author": "Author 1",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 10.0,
+    "category": "Category 1",
+    "description": "This is a captivating description for Book Title 1, written by the renowned Author 1. Explore the depths of Category 1 with this enthralling tale."
+  },
+  {
+    "id": "173c9342-8d22-440c-a391-a82e77398286",
+    "title": "Book Title 2",
+    "author": "Author 2",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 10.5,
+    "category": "Category 2"
+  },
+  {
+    "id": "28821c1a-9821-46e2-867e-301344211232",
+    "title": "Book Title 50",
+    "author": "Author 50",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 34.5,
+    "category": "Category 5",
+    "description": "This is a captivating description for Book Title 50, written by the renowned Author 50. Explore the depths of Category 5 with this enthralling tale."
+  },
+  {
+    "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    "title": "The Silent Symphony",
+    "author": "Emily Blackwood",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 12.99,
+    "category": "Mystery",
+    "description": "A gripping mystery unfolds in a small town when a renowned composer is found dead under mysterious circumstances. Follow Detective Alex Mason as he unravels the secrets behind the silent symphony."
+  },
+  {
+    "id": "q2w3e4r5-t6y7u8-i9o0p1-a2s3d4f5-g6h7j8k9",
+    "title": "Whispers of the Past",
+    "author": "Sarah Johnson",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 9.99,
+    "category": "Historical Fiction",
+    "description": "Journey through time to the Victorian era as a young woman discovers a hidden diary filled with secrets that could change her life forever."
+  },
+  {
+    "id": "z1x2c3v4-b5n6m7-j8k9l0-q2w3e4r5-t6y7u8i9",
+    "title": "The Quantum Paradox",
+    "author": "Dr. Michael Greene",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 19.99,
+    "category": "Science Fiction",
+    "description": "A brilliant physicist stumbles upon a groundbreaking discovery that challenges the very fabric of reality, leading him on a thrilling adventure through parallel universes."
+  },
+  {
+    "id": "m1n2b3v4-c5x6z7-l8k9j0-p1o2i3u4-y5t6r7e8",
+    "title": "Recipes for the Soul",
+    "author": "Chef Olivia Martinez",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 24.99,
+    "category": "Cookbook",
+    "description": "Discover a collection of delicious and heartwarming recipes that nourish not only your body but also your soul. With stunning photography and easy-to-follow instructions, this cookbook is a must-have for every kitchen."
+  },
+  {
+    "id": "f1g2h3j4-k5l6m7-n8o9p0-q1w2e3r4-t5y6u7i8",
+    "title": "The Art of Mindfulness",
+    "author": "David Thompson",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 14.99,
+    "category": "Self-Help",
+    "description": "Learn to live in the present moment and cultivate inner peace with this practical guide to mindfulness. Discover techniques for reducing stress, increasing focus, and living a more fulfilling life."
+  },
+  {
+    "id": "d1s2a3q4-w5e6r7-t8y9u0-i1o2p3l4-k5j6h7g8",
+    "title": "The Dragon's Legacy",
+    "author": "Brandon Lee",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 11.99,
+    "category": "Fantasy",
+    "description": "Embark on an epic adventure in a world of dragons, magic, and ancient prophecies. Join a young hero as he discovers his destiny and battles evil forces to save his kingdom."
+  },
+  {
+    "id": "j1k2l3m4-n5o6p7-q8r9s0-t1u2v3w4-x5y6z7a8",
+    "title": "Lost in the Amazon",
+    "author": "Isabella Rodriguez",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 13.99,
+    "category": "Adventure",
+    "description": "Follow a group of explorers as they venture into the depths of the Amazon rainforest, encountering danger, beauty, and ancient mysteries along the way."
+  },
+  {
+    "id": "p1o2i3u4-y5t6r7-e8w9q0-a2s3d4f5-g6h7j8k9",
+    "title": "The Coding Chronicles",
+    "author": "Sophia Davis",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 16.99,
+    "category": "Technology",
+    "description": "Dive into the world of coding and unlock your creative potential. This comprehensive guide will teach you the fundamentals of programming and empower you to build your own digital projects."
+  },
+  {
+    "id": "v1c2x3z4-a5s6d7-f8g9h0-j1k2l3m4-n5b6v7c8",
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 15.99,
+    "category": "Self-Help",
+    "description": "A spiritual guide that teaches you how to escape the suffering of the mind and find inner peace by living in the present moment."
+  },
+  {
+    "id": "b1n2m3v4-c5x6z7-a8s9d0-f1g2h3j4-k5l6p7o8",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 10.99,
+    "category": "Fiction",
+    "description": "A woman named Nora Seed finds herself in a library between life and death, where each book offers a chance to try another life she could have lived."
+  },
+  {
+    "id": "f9e8d7c6-b5a4-3210-9876-543210fedcba",
+    "title": "Beneath the Crimson Sky",
+    "author": "Ava Chen",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 15.49,
+    "category": "Romance",
+    "description": "A passionate love story unfolds against the backdrop of a war-torn land, as two star-crossed lovers fight to survive and find happiness amidst chaos."
+  },
+  {
+    "id": "24680ace-1357-9bdf-ef01-23456789abcd",
+    "title": "The Whispering Woods",
+    "author": "Ethan Cole",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 18.95,
+    "category": "Horror",
+    "description": "Venture into a haunted forest where ancient secrets lie buried. A group of friends camping trip turns into a nightmare as they become entangled in a terrifying supernatural mystery."
+  },
+  {
+    "id": "09876543-2101-2345-6789-abcdef012345",
+    "title": "The Vegan Voyage",
+    "author": "Mia Patel",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 22.99,
+    "category": "Cookbook",
+    "description": "Embark on a culinary journey through the world of plant-based cuisine. Discover delicious and nutritious vegan recipes for every occasion, from hearty mains to decadent desserts."
+  },
+  {
+    "id": "abcdef01-2345-6789-abcd-ef0123456789",
+    "title": "Codebreaker",
+    "author": "Alex Parker",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 17.99,
+    "category": "Thriller",
+    "description": "A brilliant hacker races against time to stop a cyberattack that could cripple the world's financial systems. But as he delves deeper into the conspiracy, he uncovers a shocking truth that puts his own life in danger."
+  },
+  {
+    "id": "fedcba98-7654-3210-0123-456789abcdef",
+    "title": "The Last Shaman",
+    "author": "Sofia Mendez",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 16.5,
+    "category": "Adventure",
+    "description": "A young woman travels to the Amazon rainforest to find a legendary shaman who holds the key to curing a mysterious illness. Along the way, she faces dangerous challenges and discovers the power of ancient wisdom."
+  },
+  {
+    "id": "98765432-1012-3456-789a-bcdef0123456",
+    "title": "The Quantum Key",
+    "author": "Dr. Emily Davis",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 21.95,
+    "category": "Science Fiction",
+    "description": "A team of scientists races to unlock the secrets of quantum entanglement, a phenomenon that could revolutionize communication and transportation. But their research attracts unwanted attention from powerful forces who will stop at nothing to control this technology."
+  },
+  {
+    "id": "13579bdf-0246-8ace-fedc-ba9876543210",
+    "title": "The Forgotten City",
+    "author": "Noah Carter",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 14.99,
+    "category": "Historical Fiction",
+    "description": "An archaeologist stumbles upon the ruins of a lost city buried beneath the sands of time. As he unearths its secrets, he uncovers a love story that transcends centuries and a dark truth that threatens to change the course of history."
+  },
+  {
+    "id": "98765432-10fe-dcba-9876-543210fedcba",
+    "title": "The Lunar Chronicles",
+    "author": "Marissa Meyer",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 18.99,
+    "category": "Young Adult",
+    "description": "A captivating retelling of classic fairy tales set in a futuristic world, where cyborgs, androids, and lunar rebels collide."
+  },
+  {
+    "id": "24680ace-1357-9bdf-ef01-234567890abc",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 25.99,
+    "category": "Nonfiction",
+    "description": "A thought-provoking exploration of human history, from the evolution of Homo sapiens to the rise of civilizations and the challenges we face in the 21st century."
+  },
+  {
+    "id": "09876543-2101-2345-6789-abcdeffedcba",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 14.99,
+    "category": "Science Fiction",
+    "description": "A gripping tale of survival and ingenuity as an astronaut stranded on Mars uses his scientific knowledge to find a way back home."
+  },
+  {
+    "id": "abcdef01-2345-6789-abcd-ef0123456780",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 12.5,
+    "category": "Fiction",
+    "description": "An allegorical novel about a young shepherd who embarks on a journey to Egypt to find his treasure, discovering profound truths about life and purpose along the way."
+  },
+  {
+    "id": "fedcba98-7654-3210-0123-4567890abcde",
+    "title": "Educated",
+    "author": "Tara Westover",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 17.95,
+    "category": "Memoir",
+    "description": "A powerful memoir about a young woman who, raised in a survivalist family in rural Idaho, taught herself enough to earn a Ph.D. from Cambridge University."
+  },
+  {
+    "id": "98765432-1012-3456-789a-bcdef0123450",
+    "title": "Born a Crime",
+    "author": "Trevor Noah",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 16.99,
+    "category": "Biography",
+    "description": "A humorous and poignant memoir about growing up mixed-race in apartheid South Africa."
+  },
+  {
+    "id": "13579bdf-0246-8ace-fedc-ba9876543201",
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 15.49,
+    "category": "Historical Fiction",
+    "description": "A story of two sisters in France during World War II, separated by years and experience, by ideals, passion and circumstance, each embarking on her own dangerous path toward survival, love, and freedom in German-occupied France."
+  },
+  {
+    "id": "2a4c6e8f-1357-9bdf-e024-68acf13579bd0",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 12.99,
+    "category": "Thriller",
+    "description": "A psychological thriller about a woman who hasn't spoken since her husband's murder, and the therapist determined to get her to open up."
+  },
+  {
+    "id": "e02468ac-f135-79bd-ef01-23456789abcd0",
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 14.5,
+    "category": "Fiction",
+    "description": "A coming-of-age story and a murder mystery set in the marshes of North Carolina."
+  },
+  {
+    "id": "f1e3d5c7-b9a0-2468-ace0-13579bdf2460",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "coverImage": "https://random.imagecdn.app/200/300",
+    "price": 19.95,
+    "category": "Fantasy",
+    "description": "The first novel in The Kingkiller Chronicle, a sweeping fantasy epic about a legendary hero who recounts his life story."
+  },
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925.jpg/220px-The_Great_Gatsby_Cover_1925.jpg",
+    "price": 12.99,
+    "category": "Classic",
+    "description": "A novel about the American Dream in the Roaring Twenties."
+  },
+  {
+    "id": "2",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/220px-PrideAndPrejudiceTitlePage.jpg",
+    "price": 9.99,
+    "category": "Classic",
+    "description": "A witty social commentary on love and marriage in 19th-century England."
+  },
+  {
+    "id": "3",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/H2G2_UK_front_cover.jpg/220px-H2G2_UK_front_cover.jpg",
+    "price": 14.99,
+    "category": "Science Fiction",
+    "description": "A comedic science fiction series about a hapless Englishman who travels the universe."
+  },
+  {
+    "id": "4",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/220px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+    "price": 10.99,
+    "category": "Classic",
+    "description": "A powerful story about racial injustice in the American South."
+  },
+  {
+    "id": "5",
+    "title": "1984",
+    "author": "George Orwell",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/1984first.jpg/220px-1984first.jpg",
+    "price": 11.99,
+    "category": "Dystopian",
+    "description": "A chilling vision of a totalitarian future where individuality is suppressed."
+  }
+]
