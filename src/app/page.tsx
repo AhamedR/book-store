@@ -8,6 +8,7 @@ import Filter from "@/components/Filter";
 import { useBookStore } from "@/providers/bookStoreProvider";
 import CardSkeleton from "@/components/CardSkeleton";
 import { IconInfoCircle } from "@tabler/icons-react";
+import { Banner } from "@/components/Banner/Banner";
 
 export default function HeaderMenu() {
   const { books, currentPage, totalPages, isFetching, fetchBooks } = useBookStore(
@@ -20,15 +21,17 @@ export default function HeaderMenu() {
 
   return (
     <>
+      <Banner />
       <Container size="xl">
         <Filter />
         <Flex
           mih={50}
           gap="md"
-          justify="space-evenly"
+          justify="flex-start"
           align="flex-start"
           direction="row"
           wrap="wrap"
+          pt="md"
         >
           {isFetching ? <CardSkeleton /> : null}
           {books.map((book) => (
