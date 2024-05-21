@@ -1,12 +1,10 @@
 import { IBookApiResponse } from "@/lib/models/Book";
 import books from "../../books.json";
 
-export type SortOrder = "all" | "low" | "high";
-
 const getBooks = (
   page: number,
   search?: string,
-  sort?: "all" | "low" | "high",
+  sort?: string,
   limit: number = 10,
 ): IBookApiResponse => {
   if (page < 1) {

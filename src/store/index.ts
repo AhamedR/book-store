@@ -8,7 +8,7 @@ import IOrderDetails from "@/lib/models/Order";
 export type Actions = {
   fetchBooks: (page?: number) => void;
   searchBooks: (searchTerm: string) => void;
-  filterBooks: (sortBy: "all" | "low" | "high", searchTerm?: string) => void;
+  filterBooks: (sortBy: string, searchTerm?: string) => void;
   toggleCardDrawer: () => void;
   updateCartItemQuantity: (bookId: string, change: number) => void;
 };

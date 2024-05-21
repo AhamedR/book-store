@@ -14,7 +14,7 @@ export default function HeaderMenu() {
 
   useEffect(() => {
     fetchBooks();
-  }, []);
+  }, [fetchBooks]);
 
   return (
     <>

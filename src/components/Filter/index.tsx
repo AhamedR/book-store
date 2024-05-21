@@ -3,16 +3,13 @@
 import { useState } from "react";
 import {
   CloseButton,
-  Flex,
   Grid,
-  Input,
   Select,
   TextInput,
   rem,
 } from "@mantine/core";
 import { IconSortDescending, IconSearch } from "@tabler/icons-react";
 import { useBookStore } from "@/providers/bookStoreProvider";
-import { SortOrder } from "@/api";
 
 const Filter = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -23,8 +20,8 @@ const Filter = () => {
     searchBooks(searchTerm);
   };
 
-  const handleSortChange = (value: SortOrder = "all") => {
-    filterBooks(value, searchValue);
+  const handleSortChange = (value: string | null) => {
+    value ? filterBooks(value, searchValue) : null;
   };
 
   // UI
@@ -39,7 +36,7 @@ const Filter = () => {
         <TextInput
           width="100%"
           label="Search"
-          placeholder="Title, Author"
+          placeholder="Title, Author, Category"
           leftSection={searchIcon}
           value={searchValue}
           onChange={(event) => handleSearch(event.currentTarget.value)}
