@@ -1,19 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import {
-  Button,
-  Card,
-  Divider,
-  Grid,
-  Group,
-  Text,
-  TextInput,
-  Table,
-  Container,
-  SimpleGrid,
-} from "@mantine/core";
-import { DataTable } from "mantine-datatable";
+import React from "react";
+import { Divider, Grid, Text, Container } from "@mantine/core";
 import OrderSummary from "@/components/OrderSummary";
 import OrderForm from "@/components/OrderForm";
 

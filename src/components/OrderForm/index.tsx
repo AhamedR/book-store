@@ -67,7 +67,10 @@ const OrderForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <Container size="sm">
-        <Fieldset legend="Delivery Information" disabled={cart.items.length === 0}>
+        <Fieldset
+          legend="Delivery Information"
+          disabled={cart.items.length === 0}
+        >
           <TextInput
             label="Full Name"
             {...form.getInputProps("fullName")}
@@ -104,7 +107,12 @@ const OrderForm = () => {
             error={form.errors.country}
           />
         </Fieldset>
-        <Button disabled={cart.items.length === 0} type="submit" loading={false} mt={"lg"}>
+        <Button
+          disabled={cart.items.length === 0}
+          type="submit"
+          loading={false}
+          mt={"lg"}
+        >
           Place Order
         </Button>
       </Container>

@@ -11,9 +11,8 @@ import { IconInfoCircle } from "@tabler/icons-react";
 import { Banner } from "@/components/Banner/Banner";
 
 export default function HeaderMenu() {
-  const { books, currentPage, totalPages, isFetching, fetchBooks } = useBookStore(
-    (state) => state
-  );
+  const { books, currentPage, totalPages, isFetching, fetchBooks } =
+    useBookStore((state) => state);
 
   useEffect(() => {
     fetchBooks();
